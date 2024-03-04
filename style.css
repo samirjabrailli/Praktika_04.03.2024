@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.general{
+    border: 3px solid purple;
+    width: 60%;
+   margin: 40px auto;
+   padding: 60px;
+
+   
+}
+
+.general h1{
+   text-align: center;
+   padding: 10px;
+}
+
+.general p{
+    margin: 10px;
+    text-align: center;
+
+}
+
+.form input, textarea{
+    width:100%;
+    padding: 14px 6px;
+    margin-bottom: 8px;
+   
+}
+.form .checkbox{
+width: max-content;
+}
+.form button{
+    padding: 24px;
+    display: block;
+    margin: 15px auto;
+    background-color: blue;
+    color: white;
+    border: none;
+}
